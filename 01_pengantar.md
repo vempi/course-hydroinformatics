@@ -7,16 +7,13 @@ An **API** represents a computing interface that enables interactions between mu
 
 An **IDE** enables the definition of a project to use, for example, a specific Python environment, and it enables robust coding by pointing out issues directly in the code, even before it runs for the first time. Powerful IDEs go even further and assist in documenting code with markdown (*.md* files) and directly pipe into *git* (see the {ref}`chpt-git`).
 
-```{admonition} Which IDE to choose?
-:class: tip
-The answer to this question depends on the platform you are using (e.g., *Windows* or *Linux*), your personal preferences, and your goals.
-
-For writing Python software itself, {ref}`PyCharm <pycharm>` is a powerful solution. In addition, {ref}`Jupyter <jupyter>` is a great tool for writing word-office-like documents with functional code examples. To test and run Python code (software) locally,  for ***Windows* users, the installation of {ref}`anaconda` is almost indispensable**. *Linux* users will be mostly fine with their system setup without the need to install *Anaconda*.
-
-For code documentation, examples, and the best learning experience in the Python courses featured in this eBook, consider installing {ref}`jupyter` locally. *Windows* users find instructions in the {ref}`install-jupyter-windows` section. *Linux* users find instructions in the {ref}`install-jupyter-linux` section.
-
-**Once you have an IDE installed, carefully read the {ref}`instructions for installing Python <install-python>`.**
-```
+<blockquote style="background-color: #e2f0d9; padding: 10px; border-radius: 5px;">
+  <strong>Which IDE to choose?</strong><br>
+  <p>The answer to this question depends on the platform you are using (e.g., <em>Windows</em> or <em>Linux</em>), your personal preferences, and your goals.</p>
+  <p>For writing Python software itself, <a href="pycharm">PyCharm</a> is a powerful solution. In addition, <a href="jupyter">Jupyter</a> is a great tool for writing word-office-like documents with functional code examples. To test and run Python code (software) locally, for <strong>Windows</strong> users, the installation of <a href="anaconda">Anaconda</a> is almost indispensable. <em>Linux</em> users will be mostly fine with their system setup without the need to install <em>Anaconda</em>.</p>
+  <p>For code documentation, examples, and the best learning experience in the Python courses featured in this eBook, consider installing <a href="jupyter">Jupyter</a> locally. <strong>Windows</strong> users find instructions in the <a href="install-jupyter-windows">install-jupyter-windows</a> section. <em>Linux</em> users find instructions in the <a href="install-jupyter-linux">install-jupyter-linux</a> section.</p>
+  <p><strong>Once you have an IDE installed, carefully read the <a href="install-python">instructions for installing Python</a>.</strong></p>
+</blockquote>
 
 (anaconda)=
 # Anaconda
@@ -29,14 +26,7 @@ For code documentation, examples, and the best learning experience in the Python
 
 The very first step to getting started with Anaconda consists in downloading and installing [Anaconda](https://www.anaconda.com/download) where students may use the individual license for educational training purposes (note that a commercial license needs to be purchased for for-profit organizations). On Windows, Anaconda should be installed in the *LOCAL* user folder (e.g., *C:\users\<your-user-name>\AppData\Local*). *Linux* or *macOS* users find download and installation instructions directly at the developer's website, tailored for their specific distribution, even though they might be better of with {ref}`virtual environments <pip-env>`.
 
-After the successful installation of *Anaconda*, IDEs for Python programming or *markdown* editing can be directly installed by launching the **Anaconda navigator**. **`conda`** environments can be created later. Learn more about installing Anaconda (with Python) and this eBook's support package called {{ ft_url }} in the {ref}`Python conda quick guide <conda-quick>` section and in the video below.
-
-```{admonition} Python Anaconda Installation Video on YouTube
-:class: tip, dropdown
-<iframe width="701" height="394" src="https://www.youtube-nocookie.com/embed/cbIPRGOUAVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p>Sebastian Schwindt<a href="https://www.youtube.com/@hydroinformatics">@hydroinformatics on YouTube</a>.</p>
-```
-
+After the successful installation of *Anaconda*, IDEs for Python programming or *markdown* editing can be directly installed by launching the **Anaconda navigator**. **`conda`** environments can be created later. Learn more about installing Anaconda (with Python) and this eBook's support package called {{ ft_url }} in the {ref}`Python conda quick guide <conda-quick>` section.
 ## Miniconda
 
 *Anaconda* may cause large environments that require several gigabytes of storage. To install lightweight environments, use [Miniconda](https://docs.conda.io/en/latest/miniconda.html). *Miniconda* does not include *Anaconda Navigator* and to enable working with *Jupyter* notebooks (in *Windows*):
