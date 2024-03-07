@@ -20,21 +20,20 @@ Pendekatan kami memanfaatkan alat perangkat lunak yang tersedia secara gratis un
 We provide tutorials for:
 
 1. Coding with Python, including
-   - Collaborative development with version control through git
    - Guidance to Python (Installation)
-   - A general introduction to Python programming and object orientation)
-   - Guides for code and project documentation (Markdown / reStructuredText)
+   - A general introduction to Python programming and object orientation
+   - Guides for projects
 2. Geospatial analyses with QGIS and Python
 3. Machine learning with illustrative exercises and Python implementations to dive into:
    - the fundamentals of supervised learning
    - an introduction to unsupervised learning
-   - a tutorial for support vector machines (SVM)
-4. Numerical modeling of rivers with
+   - a tutorial for several machine learning algorithms (RandomForest, SVM, Gradient boosting, etc.)
+4. Numerical modeling
    - SWMM
    - HECHMS
    - HECRAS
 
-All applications used is  open-source or open-access software, and the software chapter provides guidance on finding and installing appropriate and efficient software.
+All applications used are  open-source or open-access software, and the software chapter provides guidance on finding and installing appropriate and efficient software.
 
 The theory chapters come along with exercises that align with the learning contents of this material and feature applications in water resources management, hydraulic engineering, and ecohydraulics.
 
