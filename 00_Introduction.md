@@ -1,8 +1,8 @@
-Welcome to hydro-informatics course material
-Departement of Civil and Environmental Engineering
+# Welcome to hydro-informatics course material!
+Department of Civil and Environmental Engineering
 Universitas Gadjah Mada, Indonesia
 
-This educational platform is about water-related data analysis & programming, 
+This educational platform provide a bunch of tutorial water-related data analysis & programming, 
 numerical modelling, and geospatial analysis in water resources engineering & research.
 
 ![Header](https://github.com/vempi/course-hydroinformatics/assets/34568583/00df34c0-dcb8-464a-926d-9b0b38e5ab61)
